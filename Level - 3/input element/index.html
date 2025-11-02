@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input element</title>
+</head>
+
+<body>
+    <from action="/server">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+
+        <button>Submit</button>
+    </from>
+    <br>
+    <br>
+    <br>
+    <form action="/server">
+        <div>
+            Choose Your fruit
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+
+            <input type="radio" name="fruit" id="Mango" value="Mango">
+            <label for="Mango">Mango</label>
+
+            <input type="radio" name="fruit" id="Orange" value="Orange">
+            <label for="Orange">Orange</label>
+
+        </div>
+        <br>
+        <br>
+
+        <div>
+            Choose Your Department
+            <input type="checkbox" id="MCA" name="Department" value="MCA">
+            <label for="MCA">MCA</label>
+
+            <input type="checkbox" id="BCA" name="Department" value="BCA">
+            <label for="MCA">MCA</label>
+
+            <input type="checkbox" id="BSC" name="Department" value="BSC">
+            <label for="BSC">BSC</label>
+
+            <input type="checkbox" id="MBA" name="Department" value="MBA">
+            <label for="MBA">MBA</label>
+
+            <button>Submit</button>
+        </div>
+
+        <br>
+        <br>
+        <div>
+            Choose Your Profession
+            <select name="Profession" id="Profession">
+
+                <option value="Stu">Student</option>
+                <option value="Dev">Developer</option>
+                <button>Submit</button>
+            </select>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            Select Your
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" name="Vol">
+
+            <button>Submit</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea>
+            
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
